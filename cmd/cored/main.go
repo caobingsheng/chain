@@ -120,7 +120,7 @@ func main() {
 	fmt.Printf("mockhsm: %t\n", config.BuildConfig.MockHSM)
 	fmt.Printf("loopback-auth: %t\n", config.BuildConfig.LoopbackAuth)
 	fmt.Printf("reset: %t\n", config.BuildConfig.Reset)
-	fmt.Printf("plain_http: %t\n", config.BuildConfig.PlainHTTP)
+	fmt.Printf("plain_http_ok: %t\n", config.BuildConfig.PlainHTTP)
 
 	if *v {
 		return

@@ -1,4 +1,4 @@
-//+build plain_http
+//+build plain_http_ok
 
 package main
 
